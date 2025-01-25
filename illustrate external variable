@@ -1,0 +1,15 @@
+#include<stdio.h>
+int n=5;
+main()
+{
+    extern int n;
+    void display(void);
+    printf("\n %d",n);
+    display();
+}
+void display(void)
+{
+    extern int n;
+    printf("\n %d",n);
+} 
+
