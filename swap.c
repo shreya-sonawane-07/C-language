@@ -13,5 +13,4 @@ int main() {
 
   printf("\nAfter swapping, first number = %.2lf\n", first);
   printf("After swapping, second number = %.2lf", second);
-  return 0;
-}
+ }
